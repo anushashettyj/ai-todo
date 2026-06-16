@@ -15,8 +15,6 @@ A command-line TODO application powered by OpenAI that enables users to manage t
 
 Watch the application in action:
 
-https://github.com/anushashettyj/ai-todo/assets/demo.mp4
-
 https://github.com/user-attachments/assets/55f6dd61-93fe-44b8-ad7d-f9367f54f6ea
 
 
