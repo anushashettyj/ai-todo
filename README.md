@@ -17,7 +17,6 @@ Watch the application in action:
 
 https://github.com/user-attachments/assets/55f6dd61-93fe-44b8-ad7d-f9367f54f6ea
 
-
 The demo showcases:
 
 - Natural language interaction with the AI agent
@@ -93,3 +92,28 @@ Start the application:
 ```bash
 node index.js
 ```
+
+## Viewing Data with Drizzle Studio
+
+You can inspect and verify TODO operations directly in the database using Drizzle Studio.
+
+Start Drizzle Studio:
+
+```bash
+npm run studio
+```
+
+Open the browser at:
+
+```text
+https://local.drizzle.studio/
+```
+
+From Drizzle Studio you can:
+
+- View all database tables
+- Inspect TODO records
+- Verify task creation, updates, and deletions
+- Observe how AI-generated commands interact with the PostgreSQL database
+
+After executing TODO commands through the AI agent, refresh the table view in Drizzle Studio to verify the changes.
